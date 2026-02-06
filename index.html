@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio MUMEME DAVID</title>
+
+  <!-- Font Awesome pour les icônes -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-papx8bqG+Bz9LcVx2YtJrPvKP4sOxq3qv/3TLAluWc1d3Z5XdPrsXScqHkOkfL03b5Fj3GqYc5n0+MjfXQO8Mw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <h2>DAVID MUMEME - Front-end Developer</h2>
+    <ul>
+      <li><a href="#home">Accueil</a></li>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- IMAGES VERTICALES -->
+  <div class="image">
+      <img src="my pictures/code_mylife.jpg" alt="mon environnement de travail">
+      <img src="my pictures/dimansion_344.jpg" alt="mon bureau programme"> 
+      <img src="my pictures/picturedav.jpg" alt="portrait du développeur web david"> 
+  </div>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <div class="cercle"></div>
+      <h1>Développeur Web</h1>
+      <p>HTML5 • CSS3 • JavaScript</p>
+      <button onclick="scrollToSection('projects')">Voir mes projets</button>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>À propos de moi</h2>
+    <p>
+      Je suis un développeur web passionné, spécialisé dans la création d'interfaces modernes, responsives et performantes.
+      Grace à une solide maitrise de HTML5, CSS3, et JavaScript, je conçois des sites web claires, structurés et agréable à utiliser.
+      J'accorde une grandre importance à l'experience utilisateur(UI/UX),au respect des bonnes pratique du web et à l'optimisation des performance.
+      Chaque projet est pour moi une opportunité de transformer des idées en solution digitals.
+
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Compétences</h2>
+    <div class="skills-container">
+      <div class="skill">HTML5</div>
+      <div class="skill">CSS3</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Responsive Design</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projets</h2>
+    <div class="projects-grid">
+      <div class="card">
+        <h3>Portfolio</h3>
+        <p>Site personnel moderne et responsive.</p>
+        <a href="#">Demo</a>
+      </div>
+      <div class="card">
+        <h3>Todo App</h3>
+        <p>Application JavaScript avec stockage local.</p>
+        <a href="#">Demo</a>
+      </div>
+      <div class="card">
+        <h3>Landing Page</h3>
+        <p>Page marketing avec animations CSS.</p>
+        <a href="#">Demo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Nom" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+    <p id="success"></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="social-footer">
+    <a href="https://facebook.com" target="_blank">
+      <i class="fa-brands fa-facebook"></i>
+    </a>
+    <a href="https://instagram.com" target="_blank">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+    <a href="https://wa.me/243975049482" target="_blank">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <p>© 2026 - DAVID MUMEME</p>
+  </footer>w
+
+  <script src="script.js"></script>
+</body>
+</html>
